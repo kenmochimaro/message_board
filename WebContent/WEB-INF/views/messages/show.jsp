@@ -13,6 +13,7 @@
         <%-- <fmt:formatDate>は作成日時や更新日時を pattern 属性で指定した 年-月-日 時:分:秒 の形式で表示 --%>
 
         <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
+        <p><a href="${pageContext.request.contextPath}/edit?id=${message.id}">このメッセージを編集する</a></p>
 
     </c:param>
 </c:import>
